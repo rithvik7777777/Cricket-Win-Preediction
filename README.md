@@ -9,7 +9,9 @@ Target score set in the first innings
 Clean Architecture: The code is split into logical modules for configuration, data processing, modeling, and prediction, making it easy to maintain and extend.
 High Accuracy: Employs a RandomForestClassifier which achieves high accuracy on historical data.
 ##Project Structure
-ipl-win-predictor/
+
+
+##ipl-win-predictor/
 |
 ├── .gitignore          # Files to be ignored by Git
 ├── README.md           # You are here!
@@ -24,6 +26,7 @@ ipl-win-predictor/
 └── data/
     ├── IPL_Ball_by_Ball_2008_2022.csv
     └── IPL_Matches_2008_2022.csv
+
 
 ##Install Dependencies
 pip install -r requirements.txt
